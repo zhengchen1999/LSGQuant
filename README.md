@@ -2,7 +2,7 @@
 
 https://zheng-chen.cn/LSGQuant/
 
-A post-training quantization framework tailored to demoiréing
+A layer-sensitivity guided quantizing approach for one-step diffusion-based real-world VSR
 
 ## Acknowledgments
 
