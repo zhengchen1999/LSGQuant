@@ -11,7 +11,7 @@
 <a href="https://github.com/zhengchen1999/LSGQuant/stargazers" target='_blank' style="text-decoration: none;"><img src="https://img.shields.io/github/stars/zhengchen1999/LSGQuant?style=social"></a>
 </div>
 
-[[project](https://zheng-chen.cn/LSGQuant/)] [[arXiv]()] [[supplementary material]()]
+[[project](https://zheng-chen.cn/LSGQuant/)] [[arXiv]()] [[supplementary material](https://github.com/zhengchen1999/LSGQuant/releases/download/supplement-v1/Supplementary_Material.pdf)]
 
 
 
