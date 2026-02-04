@@ -11,13 +11,13 @@
 <a href="https://github.com/zhengchen1999/LSGQuant/stargazers" target='_blank' style="text-decoration: none;"><img src="https://img.shields.io/github/stars/zhengchen1999/LSGQuant?style=social"></a>
 </div>
 
-[[project](https://zheng-chen.cn/LSGQuant/)] [[arXiv]()] [[supplementary material](https://github.com/zhengchen1999/LSGQuant/releases/download/supplement-v1/Supplementary_Material.pdf)]
+[[project](https://zheng-chen.cn/LSGQuant/)] [[arXiv](https://arxiv.org/abs/2602.03182)] [[supplementary material](https://github.com/zhengchen1999/LSGQuant/releases/download/supplement-v1/Supplementary_Material.pdf)]
 
 
 
 #### <a name="news"></a>🔥🔥🔥 News
 
-- **2026-02-??:** This repo is released.
+- **2026-02-04:** This repo is released.
 
 ---
 
@@ -66,7 +66,12 @@
 If you find the code helpful in your research or work, please cite the following paper(s).
 
 ```
-@inproceedings{???}
+@inproceedings{wu2026lsgquant,
+  title={LSGQuant: Layer-Sensitivity Guided Quantization for One-Step Diffusion Real-World Video Super-Resolution},
+  author={Wu, Tianxing and Chen, Zheng and Xu, Cirou and Chai, Bowen and Guo, Yong and Liu, Yutong and Kong, Linghe and Zhang, Yulun},
+  journal={arXiv preprint arXiv:2602.03182},
+  year={2026}
+}    
 ```
 
 ## <a name="acknowledgements"></a>💡 Acknowledgements
