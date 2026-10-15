@@ -1,0 +1,32 @@
+# Core environment of LSGQuant (DiT quantization + inference + evaluation).
+# Tested with python 3.10 and CUDA 12.6 (torch 2.7.1+cu126).
+torch==2.7.1
+torchvision==0.22.1
+accelerate==1.7.0
+transformers==4.52.4
+modelscope==1.27.0
+diffusers==0.33.1
+einops==0.8.1
+omegaconf==2.3.0
+safetensors==0.5.3
+imageio==2.37.0
+imageio-ffmpeg==0.6.0
+av==14.4.0
+opencv-python==4.11.0.86
+decord==0.6.0
+numpy==2.2.6
+scipy==1.15.3
+scikit-image==0.25.2
+matplotlib==3.10.3
+pillow==11.2.1
+tqdm==4.67.1
+
+# evaluation metrics (DOVER / EWARP / IQA)
+pyiqa==0.1.13
+scikit-video
+timm==1.0.15
+
+# DOVER needs the vendored package, install it from the repository root:
+#   pip install -e eval_metric/DOVER --no-deps
+# and the EWARP CUDA extension:
+#   cd eval_metric/RAFT/networks/resample2d_package && python setup.py install
