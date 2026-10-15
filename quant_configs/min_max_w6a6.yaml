@@ -1,0 +1,11 @@
+model:
+  model_id: "WAN"
+remain_fp_regex: patch_embedding|text_embedding|time_embedding|time_projection|head
+quant_param:
+  save_path: min_max_w6a6.pth
+weight:
+  n_bits: 6
+  sym: False
+act:
+  n_bits: 6
+  sym: True

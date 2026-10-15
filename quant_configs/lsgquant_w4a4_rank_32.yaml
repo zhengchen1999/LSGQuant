@@ -1,0 +1,23 @@
+model:
+  model_id: "WAN"
+remain_fp_regex: patch_embedding|text_embedding|time_embedding|time_projection|head
+lsgquant:
+  layer_name_regex: blocks
+  rank: 32
+  act_quant: draq
+  low_threshold: 0.001
+  high_threshold: 0.075
+  iter_frozen: 1
+  iter_light: 30
+  iter_converged: 1000
+calib_data:
+  # VOLTS layer-sensitivity statistics (scripts/calibrate.sh ... var)
+  save_path: lsgquant_calib_stats.pth
+quant_param:
+  save_path: lsgquant_w4a4_rank_32.pth
+weight:
+  n_bits: 4
+  sym: False
+act:
+  n_bits: 4
+  sym: True

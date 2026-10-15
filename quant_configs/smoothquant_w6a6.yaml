@@ -1,0 +1,17 @@
+model:
+  model_id: "WAN"
+remain_fp_regex: patch_embedding|text_embedding|time_embedding|time_projection|head
+smooth_quant:
+  alpha: 0.5
+  layer_name_regex: blocks
+calib_data:
+  # per-channel activation maxima (scripts/calibrate.sh ... act_max)
+  save_path: baseline_act_max.pth
+quant_param:
+  save_path: smoothquant_w6a6.pth
+weight:
+  n_bits: 6
+  sym: False
+act:
+  n_bits: 6
+  sym: True

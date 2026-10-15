@@ -1,0 +1,13 @@
+model:
+  model_id: "WAN"
+remain_fp_regex: patch_embedding|text_embedding|time_embedding|time_projection|head
+quarot:
+  layer_name_regex: blocks
+quant_param:
+  save_path: quarot_w6a6.pth
+weight:
+  n_bits: 6
+  sym: False
+act:
+  n_bits: 6
+  sym: True

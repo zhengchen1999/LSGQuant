@@ -1,0 +1,11 @@
+model:
+  model_id: "WAN"
+remain_fp_regex: patch_embedding|text_embedding|time_embedding|time_projection|head
+quant_param:
+  save_path: min_max_w4a4.pth
+weight:
+  n_bits: 4
+  sym: False
+act:
+  n_bits: 4
+  sym: True

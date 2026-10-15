@@ -1,0 +1,15 @@
+model:
+  model_id: "WAN"
+remain_fp_regex: patch_embedding|text_embedding|time_embedding|time_projection|head
+quarot:
+  layer_name_regex: blocks
+quant_param:
+  save_path: quarot_w4a4.pth
+# bitwidth of the layer matched by `layer_name_regex`, or a single bitwidth
+# for the whole model
+weight:
+  n_bits: 4
+  sym: False
+act:
+  n_bits: 4
+  sym: True
