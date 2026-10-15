@@ -285,7 +285,7 @@ If you find the code helpful in your research or work, please cite the following
 @inproceedings{wu2026lsgquant,
   title={LSGQuant: Layer-Sensitivity Guided Quantization for One-Step Diffusion Real-World Video Super-Resolution},
   author={Wu, Tianxing and Chen, Zheng and Xu, Cirou and Chai, Bowen and Guo, Yong and Liu, Yutong and Kong, Linghe and Zhang, Yulun},
-  booktitle={ICML},
+  booktitle={‌International Conference on Machine Learning (ICML)},
   year={2026}
 }
 ```
