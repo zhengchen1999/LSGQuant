@@ -29,6 +29,12 @@
 
 <img src="figs/main_method_fixed.png" width="100%"/>
 
+## 🔖 TODO
+
+- [x] Release code (calibration, PTQ, FP/quantized inference, evaluation).
+- [x] Release pretrained models.
+- [ ] Test our quantization method on more models.
+
 ## 📚 Table of Contents
 
 - [Installation](#installation)
@@ -273,35 +279,17 @@ bash scripts/evaluate.sh results/lsgquant_w4a4_rank_32/RealVSR
 
 If you find the code helpful in your research or work, please cite the following paper(s).
 
-<!-- ```
-@article{wu2026lsgquant,
-  title={LSGQuant: Layer-Sensitivity Guided Quantization for One-Step Diffusion Real-World Video Super-Resolution},
-  author={Wu, Tianxing and Chen, Zheng and Xu, Cirou and Chai, Bowen and Guo, Yong and Liu, Yutong and Kong, Linghe and Zhang, Yulun},
-  journal={arXiv preprint arXiv:2602.03182},
-  year={2026}
-}
-``` -->
 ```
 @inproceedings{wu2026lsgquant,
   title={LSGQuant: Layer-Sensitivity Guided Quantization for One-Step Diffusion Real-World Video Super-Resolution},
   author={Wu, Tianxing and Chen, Zheng and Xu, Cirou and Chai, Bowen and Guo, Yong and Liu, Yutong and Kong, Linghe and Zhang, Yulun},
-  booktitle={‌International Conference on Machine Learning (ICML)},
+  booktitle={ICML},
   year={2026}
 }
 ```
-
-
 
 ## <a name="acknowledgements"></a>💡 Acknowledgements
 
 The full-precision backbone model is adapted from [WAN2.1](https://github.com/Wan-Video/Wan2.1). We extend our thanks to its developers for providing a robust pretrained baseline, which significantly supports LSGQuant.
 
-<!-- We thank the authors of [DOVE](https://github.com/zhengchen1999/DOVE) for the one-step diffusion VSR code base and the HQ-VSR calibration pipeline, and the authors of [QuantVSR](https://github.com/bowenchai/QuantVSR) for the DOVER / $E^*_{warp}$ evaluation protocol.  -->
-
 This project is also based on [Q-Diffusion](https://github.com/Xiuyu-Li/q-diffusion), [ViDiT-Q](https://github.com/thu-nics/ViDiT-Q) and [SVDQuant](https://github.com/nunchaku-ai/nunchaku); their excellent code has greatly facilitated the research and development of LSGQuant.
-
-## 🔖 TODO
-
-- [x] Release code (calibration, PTQ, FP/quantized inference, evaluation).
-- [x] Release pretrained models.
-- [ ] Test our quantization method on more models.
