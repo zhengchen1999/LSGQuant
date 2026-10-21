@@ -1,6 +1,6 @@
 # [ICML 2026] LSGQuant: Layer-Sensitivity Guided Quantization for One-Step Diffusion Real-World Video Super-Resolution
 
-[Tianxing Wu](https://github.com/wutianxing0626) *, [Zheng Chen](https://zheng-chen.cn/) *, [Cirou Xv](https://github.com/xucirou), [Bowen Chai](https://github.com/bowenchai), [Yong Guo](https://www.guoyongcs.com/), [Yutong Liu](https://isabelleliu630.github.io/), [Linghe Kong](https://www.cs.sjtu.edu.cn/~linghe.kong/), and [Yulun Zhang](http://yulunzhang.com/)†
+[Tianxing Wu](https://github.com/wutianxing0626) *, [Zheng Chen](https://zheng-chen.cn/) *, [Cirou Xv](https://github.com/xucirou), [Bowen Chai](https://github.com/bowenchai), [Yong Guo](https://www.guoyongcs.com/), [Yutong Liu](https://isabelleliu630.github.io/)$\dagger$, [Linghe Kong](https://www.cs.sjtu.edu.cn/~linghe.kong/), and [Yulun Zhang](http://yulunzhang.com/)$\dagger$
 
 "LSGQuant: Layer-Sensitivity Guided Quantization for One-Step Diffusion Real-World Video Super-Resolution", ICML, 2026
 
